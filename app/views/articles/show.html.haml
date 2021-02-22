@@ -26,13 +26,13 @@
 
 .article
   %h2 コメント一覧
-  .commnets-container
+  .comments-container
 
 .container
   .btn-secondary.show-comment-form
     コメントを追加
   .comment-text-area.hidden
     = text_area_tag :comment_content, '', class: 'sm'
-    .btn-secondary
+    .btn-secondary.add-comment-button
       コメントを追加
 = javascript_pack_tag 'article'
