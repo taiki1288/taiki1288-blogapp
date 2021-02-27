@@ -8,6 +8,5 @@ namespace :notification do
         else
           puts '送信できませんでした。メッセージを入力してください。 ex. rails notification:send_emails_from_admin\[\こんにちは]'
         end
-        end
     end
 end
