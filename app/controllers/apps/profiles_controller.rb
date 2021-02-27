@@ -1,5 +1,4 @@
-class ProfilesController < ApplicationController
-    before_action :authenticate_user!
+class Apps::ProfilesController < Apps::ApplicationController
 
     def Show
         @profile = current_user.profile
